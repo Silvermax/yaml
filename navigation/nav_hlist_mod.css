@@ -1,0 +1,50 @@
+  #nav_main {
+    width: 100%;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    line-height: 0;
+  }
+
+  #nav_main ul {
+    /* (en|de) Bugfix: IE - Doubled Float Margin Bug */
+    display: inline;
+    float: left;
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav_main ul li {
+    /* (en|de) Bugfix: IE - Doubled Float Margin Bug */
+    display: inline;
+    float: left;
+    font-size: 1.0em;
+    line-height: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #nav_main ul li a,
+  #nav_main ul li strong {
+    background: transparent;
+    display: block;
+    font-size: 1em;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    width: auto;
+	color: #555;
+	text-align: center;	
+  }
+
+  #nav_main ul li a:focus,
+  #nav_main ul li a:hover,
+  #nav_main ul li a:active  { background-position: bottom left; text-decoration: none; }
+
+  #nav_main ul li.current strong,
+  #nav_main ul li.current a,
+  #nav_main ul li a:focus,
+  #nav_main ul li a:hover,
+  #nav_main ul li a:active { background-position: bottom left; text-decoration: none; color: #275fb6 }
